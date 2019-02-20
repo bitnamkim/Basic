@@ -1,0 +1,33 @@
+
+
+	class : 어떤 종류, 그룹. ex) 포유류
+
+	instance : 종류에 해당하는 개체들. ex) 사람, 말, 호랑이
+
+
+	Object = 객체 = instance(인스턴스)  **스위프트 에서는 객체, 오브젝트 단어를 안 쓰고 "인스턴스" 라는 표현을 사용함! 
+
+
+	class는 함수(로직), 변수(데이터)를 다 포함함.
+
+	instance는 class를 복제해서 만든거임. 그래서 class랑 똑같은 함수와 변수를 가질 수 있음.
+
+	class를 가지고 3개의 instance를 만들게 된다면, 각 instance 들은 다른 변수를 가지게 됨. 이 때, instance마다 해당하는 각기 다른 변수들을 통해 값을 출력함. 
+
+	ex) 
+		let instance1 = class1()
+		let instance2 = class2()
+
+	class를 가지고 instance를 만드는거임.
+
+
+	**상수(Constant), 변수(Variable)	
+
+	외부에서 사용시 -> 상수, 변수
+	인스턴스 내부에서 사용시 -> 속성(Property)
+
+
+	**함수(Function)
+
+	외부에서 사용시 -> 함수
+	인스턴스 내부에서 사용시 -> 메써드(Method)

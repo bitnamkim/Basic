@@ -1,0 +1,57 @@
+//
+//  AppDelegate.swift
+//  AppLifeCycle_Review
+//
+//  Created by 흠냐방구 on 19/11/2018.
+//  Copyright © 2018 흠냐방구. All rights reserved.
+//
+
+import UIKit
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        print("didFinishLaunchingWithOptions")
+        return true
+        // 초기화 해주는 코드 써주는 곳.
+    }
+
+    func applicationWillResignActive(_ application: UIApplication) {
+        print("applicationWillResignActive")
+        // 문자가 배너알림으로 온 상태를 ResignActive라고 함. 일시적인 정지상태, 잠깐 전환되는 상태, 그런 상태를 ResignActive라고 하는듯. 확인을 누르면 문자창으로 넘어가고 확인을 안 누르면 그래도 백그라운드 상태에 머무르게 되는거임.
+        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    }
+
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        print("applicationDidEnterBackground")
+        // 홈버튼 누르고 앱 바탕화면 들어가면 이 코드 나옴.
+        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
+        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    }
+
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        print("applicationWillEnterForeground")
+        // 앱 실행하면 이 코드 나옴.
+        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    }
+
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        print("applicationDidBecomeActive")
+        // 앱 실행하면 이 코드 나옴.
+        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    }
+
+    func applicationWillTerminate(_ application: UIApplication) {
+        print("applicationWillTerminate")
+        // 최초 앱 실행된 상태에서 앱을 종료하면 이 코드가 나옴
+        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+
+
+}
+

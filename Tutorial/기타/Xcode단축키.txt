@@ -1,0 +1,17 @@
+Cmd + R 프로그램 실행
+
+Cmd + 0 Navigation 창열기
+
+Cmd + Option + 0 Utility 창 열기
+
+Cmd + Shift + y 디버깅 창 열기
+
+Cmd + Option + Enter 보조 편집창 열기
+
+Cmd + Enter 보조 편집창 닫기
+
+Cmd + Shift+ o 빠르게 파일 찾기
+
+Xcode - preferences - Navigation - Uses Primary Editor 또는 Uses Focuesed Editor를 선택할 수 있습니다.
+
+Cmd + Shift + L 라이브러리(객체들이있는) 창 열기

@@ -1,0 +1,6 @@
+
+
+
+	outputTextView.text = "\(titleTextField.text!)" 
+	
+	String interpolation : 이렇게 큰 따옴표 안에 역슬래쉬 + 괄호를 하고 string값을 넣어 주는거임.

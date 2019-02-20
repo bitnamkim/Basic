@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47419FC821ABD6EF008EA3B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47419FC721ABD6EF008EA3B0 /* ViewController.swift */; };
+		474BF3C721AB819E00158BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474BF3C621AB819E00158BCF /* AppDelegate.swift */; };
+		474BF3CC21AB819E00158BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3CA21AB819E00158BCF /* Main.storyboard */; };
+		474BF3CE21AB81A100158BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3CD21AB81A100158BCF /* Assets.xcassets */; };
+		474BF3D121AB81A100158BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3CF21AB81A100158BCF /* LaunchScreen.storyboard */; };
+		474BF3E121AB822F00158BCF /* porsche-boxter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3D921AB822F00158BCF /* porsche-boxter.jpg */; };
+		474BF3E221AB822F00158BCF /* lamborghini-veneno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3DA21AB822F00158BCF /* lamborghini-veneno.jpg */; };
+		474BF3E321AB822F00158BCF /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3DB21AB822F00158BCF /* background.jpeg */; };
+		474BF3E421AB822F00158BCF /* tesla-model-s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3DC21AB822F00158BCF /* tesla-model-s.jpg */; };
+		474BF3E521AB822F00158BCF /* lamborghini-huracan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3DD21AB822F00158BCF /* lamborghini-huracan.jpg */; };
+		474BF3E621AB822F00158BCF /* porsche-911.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3DE21AB822F00158BCF /* porsche-911.jpg */; };
+		474BF3E721AB822F00158BCF /* lamborghini-aventador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3DF21AB822F00158BCF /* lamborghini-aventador.jpg */; };
+		474BF3E821AB822F00158BCF /* tesla-model-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 474BF3E021AB822F00158BCF /* tesla-model-x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47419FC721ABD6EF008EA3B0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		474BF3C321AB819E00158BCF /* SelectCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		474BF3C621AB819E00158BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		474BF3CB21AB819E00158BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		474BF3CD21AB81A100158BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		474BF3D021AB81A100158BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		474BF3D221AB81A100158BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474BF3D921AB822F00158BCF /* porsche-boxter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "porsche-boxter.jpg"; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/porsche-boxter.jpg"; sourceTree = "<group>"; };
+		474BF3DA21AB822F00158BCF /* lamborghini-veneno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lamborghini-veneno.jpg"; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/lamborghini-veneno.jpg"; sourceTree = "<group>"; };
+		474BF3DB21AB822F00158BCF /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpeg; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/background.jpeg"; sourceTree = "<group>"; };
+		474BF3DC21AB822F00158BCF /* tesla-model-s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tesla-model-s.jpg"; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/tesla-model-s.jpg"; sourceTree = "<group>"; };
+		474BF3DD21AB822F00158BCF /* lamborghini-huracan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lamborghini-huracan.jpg"; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/lamborghini-huracan.jpg"; sourceTree = "<group>"; };
+		474BF3DE21AB822F00158BCF /* porsche-911.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "porsche-911.jpg"; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/porsche-911.jpg"; sourceTree = "<group>"; };
+		474BF3DF21AB822F00158BCF /* lamborghini-aventador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lamborghini-aventador.jpg"; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/lamborghini-aventador.jpg"; sourceTree = "<group>"; };
+		474BF3E021AB822F00158BCF /* tesla-model-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tesla-model-x.jpg"; path = "../../../../Desktop/‼️swift강의/Selcet Car/9-2.+SelectCar+Images/tesla-model-x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		474BF3C021AB819E00158BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		474BF3BA21AB819E00158BCF = {
+			isa = PBXGroup;
+			children = (
+				474BF3C521AB819E00158BCF /* SelectCar */,
+				474BF3C421AB819E00158BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		474BF3C421AB819E00158BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				474BF3C321AB819E00158BCF /* SelectCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		474BF3C521AB819E00158BCF /* SelectCar */ = {
+			isa = PBXGroup;
+			children = (
+				474BF3D821AB81E900158BCF /* Resource */,
+				474BF3C621AB819E00158BCF /* AppDelegate.swift */,
+				47419FC721ABD6EF008EA3B0 /* ViewController.swift */,
+				474BF3CA21AB819E00158BCF /* Main.storyboard */,
+				474BF3CD21AB81A100158BCF /* Assets.xcassets */,
+				474BF3CF21AB81A100158BCF /* LaunchScreen.storyboard */,
+				474BF3D221AB81A100158BCF /* Info.plist */,
+			);
+			path = SelectCar;
+			sourceTree = "<group>";
+		};
+		474BF3D821AB81E900158BCF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				474BF3DB21AB822F00158BCF /* background.jpeg */,
+				474BF3DF21AB822F00158BCF /* lamborghini-aventador.jpg */,
+				474BF3DD21AB822F00158BCF /* lamborghini-huracan.jpg */,
+				474BF3DA21AB822F00158BCF /* lamborghini-veneno.jpg */,
+				474BF3DE21AB822F00158BCF /* porsche-911.jpg */,
+				474BF3D921AB822F00158BCF /* porsche-boxter.jpg */,
+				474BF3DC21AB822F00158BCF /* tesla-model-s.jpg */,
+				474BF3E021AB822F00158BCF /* tesla-model-x.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474BF3C221AB819E00158BCF /* SelectCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474BF3D521AB81A100158BCF /* Build configuration list for PBXNativeTarget "SelectCar" */;
+			buildPhases = (
+				474BF3BF21AB819E00158BCF /* Sources */,
+				474BF3C021AB819E00158BCF /* Frameworks */,
+				474BF3C121AB819E00158BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectCar;
+			productName = SelectCar;
+			productReference = 474BF3C321AB819E00158BCF /* SelectCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		474BF3BB21AB819E00158BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "흠냐방구";
+				TargetAttributes = {
+					474BF3C221AB819E00158BCF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 474BF3BE21AB819E00158BCF /* Build configuration list for PBXProject "SelectCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 474BF3BA21AB819E00158BCF;
+			productRefGroup = 474BF3C421AB819E00158BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474BF3C221AB819E00158BCF /* SelectCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		474BF3C121AB819E00158BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BF3E421AB822F00158BCF /* tesla-model-s.jpg in Resources */,
+				474BF3E621AB822F00158BCF /* porsche-911.jpg in Resources */,
+				474BF3E521AB822F00158BCF /* lamborghini-huracan.jpg in Resources */,
+				474BF3D121AB81A100158BCF /* LaunchScreen.storyboard in Resources */,
+				474BF3E321AB822F00158BCF /* background.jpeg in Resources */,
+				474BF3CE21AB81A100158BCF /* Assets.xcassets in Resources */,
+				474BF3E121AB822F00158BCF /* porsche-boxter.jpg in Resources */,
+				474BF3E221AB822F00158BCF /* lamborghini-veneno.jpg in Resources */,
+				474BF3CC21AB819E00158BCF /* Main.storyboard in Resources */,
+				474BF3E721AB822F00158BCF /* lamborghini-aventador.jpg in Resources */,
+				474BF3E821AB822F00158BCF /* tesla-model-x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		474BF3BF21AB819E00158BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47419FC821ABD6EF008EA3B0 /* ViewController.swift in Sources */,
+				474BF3C721AB819E00158BCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		474BF3CA21AB819E00158BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474BF3CB21AB819E00158BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		474BF3CF21AB81A100158BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474BF3D021AB81A100158BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		474BF3D321AB81A100158BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		474BF3D421AB81A100158BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		474BF3D621AB81A100158BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97249KR63;
+				INFOPLIST_FILE = SelectCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bnkim.SelectCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		474BF3D721AB81A100158BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97249KR63;
+				INFOPLIST_FILE = SelectCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bnkim.SelectCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		474BF3BE21AB819E00158BCF /* Build configuration list for PBXProject "SelectCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474BF3D321AB81A100158BCF /* Debug */,
+				474BF3D421AB81A100158BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474BF3D521AB81A100158BCF /* Build configuration list for PBXNativeTarget "SelectCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474BF3D621AB81A100158BCF /* Debug */,
+				474BF3D721AB81A100158BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 474BF3BB21AB819E00158BCF /* Project object */;
+}

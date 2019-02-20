@@ -1,0 +1,15 @@
+
+
+	* Cocoa Touch Framework - Foundation FrameWork(데이터 타입, 자료구조형 등이 있음. 필수적인 요소들이 있음)
+					    UIKit Frame Work 이 두가지 프레임 워크가 중요함.
+
+	* MVC(Model layer, View layer, Controller layer)
+
+	- View layer : 화면에 보이는 UI. 이벤트가 발생하는 곳.
+
+	- Controller layer : UI를 컨트롤 하는 layer. 발생하는 이벤트를 제어하고 처리하는 곳.
+
+	- Model layer : 데이터베이스 영역. 코어데이터, ORM방식의 Framwork임. Controller layer를 저장하는 영역.
+
+	* Target-Action
+

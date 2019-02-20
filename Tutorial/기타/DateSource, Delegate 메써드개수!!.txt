@@ -1,0 +1,6 @@
+
+
+
+	DateSource는 required 메써드 무조건 2개
+
+	Delegate는 required 메써드 무조건 1개
