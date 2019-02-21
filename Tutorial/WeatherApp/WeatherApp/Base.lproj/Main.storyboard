@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tv6-YB-7yK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Fransisco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oe0-Ap-beZ">
+                                <rect key="frame" x="145.5" y="84" width="123" height="28"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOG-Bp-zZx">
+                                <rect key="frame" x="177.5" y="114" width="59" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BId-PU-JRE">
+                                <rect key="frame" x="182.5" y="370" width="49" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtJ-qH-LQ1">
+                                <rect key="frame" x="173.5" y="419" width="67" height="82"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="℃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRw-cK-B7C">
+                                <rect key="frame" x="241.5" y="462" width="19" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01n" translatesAutoresizingMaskIntoConstraints="NO" id="NvN-hj-UxC">
+                                <rect key="frame" x="107" y="168" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="2fn-ti-n6n"/>
+                                    <constraint firstAttribute="width" constant="200" id="OHy-Qc-lqp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="BId-PU-JRE" firstAttribute="top" secondItem="NvN-hj-UxC" secondAttribute="bottom" constant="2" id="0IO-eY-JKU"/>
+                            <constraint firstItem="NvN-hj-UxC" firstAttribute="top" secondItem="ZOG-Bp-zZx" secondAttribute="bottom" constant="30" id="6BU-fw-X2X"/>
+                            <constraint firstItem="LRw-cK-B7C" firstAttribute="leading" secondItem="mtJ-qH-LQ1" secondAttribute="trailing" constant="1" id="G6x-KH-bej"/>
+                            <constraint firstItem="ZOG-Bp-zZx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GDK-kh-AUe"/>
+                            <constraint firstItem="mtJ-qH-LQ1" firstAttribute="top" secondItem="BId-PU-JRE" secondAttribute="bottom" constant="25" id="HxA-j5-kWm"/>
+                            <constraint firstItem="NvN-hj-UxC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JFI-La-a16"/>
+                            <constraint firstItem="ZOG-Bp-zZx" firstAttribute="top" secondItem="Oe0-Ap-beZ" secondAttribute="bottom" constant="2" id="JLF-ak-eMA"/>
+                            <constraint firstItem="Tv6-YB-7yK" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="M6D-Xs-Z6c"/>
+                            <constraint firstItem="Tv6-YB-7yK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MUb-xe-7vV"/>
+                            <constraint firstItem="LRw-cK-B7C" firstAttribute="top" secondItem="mtJ-qH-LQ1" secondAttribute="bottom" constant="-39" id="WxT-3y-vUK"/>
+                            <constraint firstItem="mtJ-qH-LQ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kbt-3C-HaO"/>
+                            <constraint firstItem="Oe0-Ap-beZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="lxd-qI-CaJ"/>
+                            <constraint firstItem="Tv6-YB-7yK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="rnC-ZB-4if"/>
+                            <constraint firstItem="Tv6-YB-7yK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uwf-ad-llN"/>
+                            <constraint firstItem="BId-PU-JRE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vxh-fo-aea"/>
+                            <constraint firstItem="Oe0-Ap-beZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w86-Gn-hx1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="Tv6-YB-7yK" id="KmB-Vq-BVG"/>
+                        <outlet property="dayLabel" destination="ZOG-Bp-zZx" id="Mw5-JZ-fh7"/>
+                        <outlet property="locationLabel" destination="Oe0-Ap-beZ" id="LdS-Bd-SAO"/>
+                        <outlet property="temperatureLabel" destination="mtJ-qH-LQ1" id="ayx-F1-B4n"/>
+                        <outlet property="weatherImgView" destination="NvN-hj-UxC" id="TvI-tP-AgN"/>
+                        <outlet property="weatherLabel" destination="BId-PU-JRE" id="PdG-I7-ydx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="25.637181409295355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01n" width="409.60000610351562" height="409.60000610351562"/>
+    </resources>
+</document>
