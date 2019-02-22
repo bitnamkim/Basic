@@ -9,7 +9,9 @@
 # 2. 프로젝트 시현 이미지
 <table>
   <tr>
-    <th width="30%">미니 브라우저</th> <th width="30%">로그인 뷰</th> <th width="30%">날씨 데이터 파싱</th>
+    <th width="30%">미니 브라우저</th> 
+    <th width="30%">로그인 뷰</th> 
+    <th width="30%">날씨 데이터 파싱</th>
   </tr>
   
   <tr>
