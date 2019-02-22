@@ -9,14 +9,9 @@
 # 2. 프로젝트 시현 이미지
 <table>
   <tr>
-    <th width="30%">미니 브라우저</th>
+    <th width="30%">미니 브라우저</th> <th width="30%">로그인 뷰</th> <th width="30%">날씨 데이터 파싱</th>
   </tr>
-  <tr>
-    <th width="30%">로그인 뷰</th>
-  </tr>
-  <tr>
-    <th width="30%">날씨 데이터 파싱</th>
-  </tr>
+  
   <tr>
     <th rowspan="9"><img src="https://user-images.githubusercontent.com/47823405/53147192-202dc280-35ea-11e9-97c1-9c8066f2de68.gif"></th>
     <th rowspan="9"><img src="https://user-images.githubusercontent.com/47823405/53147193-215eef80-35ea-11e9-960f-f83b44bccc2c.gif"></th>
